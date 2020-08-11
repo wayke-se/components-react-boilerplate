@@ -2,6 +2,9 @@
   "extends": "./tsconfig.json",
   "include": [
     "src/**/*",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "babel.config.js",
+    "webpack.config.js",
+    "webpack.analyze.js"
   ],
 }
