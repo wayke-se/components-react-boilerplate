@@ -1,10 +1,9 @@
 import React, { Suspense, lazy } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Search from './Search';
-import Home from './Home';
-import SearchItem from './SearchItem';
-
+const Search = lazy(() => import('./Search'));
+const Home = lazy(() => import('./Home'));
+const SearchItem = lazy(() => import('./SearchItem'));
 const NotFound = lazy(() => import('./NotFound/index'));
 
 const Routes = () => (
