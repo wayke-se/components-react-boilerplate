@@ -6,3 +6,5 @@ pkg/
 .DS_Store
 examples/build
 examples/node_modules/
+.env_prod
+.env_test
